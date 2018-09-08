@@ -1,0 +1,43 @@
+@import 'variables'
+.feedback
+	background-color: #f4f4f4;
+	height: 570px
+.section-title
+	padding-top: 55px
+.feedback-slider
+	max-width: 882px
+	pb
+	&_item
+		border: 1px solid rgba(0, 0, 0, 0.1)
+		width: 250px !important
+		height: 358px
+		margin-left: 23px
+		& > img
+			margin-left: auto
+			margin-right: auto
+			width: 246px
+			height: 355px
+.slider-arrows
+	position: absolute
+	top: 0
+	height: 99%
+	width: 22px
+	border: 0px solid red
+	z-index: 99
+	border: 1px solid #f4f4f4 
+	background-color: #f4f4f4 !important
+.slider-arrows
+	&_left
+		left: 0
+		margin-left: -14px
+		background: #f4f4f4 url(../img/also/left.png) center no-repeat
+		&:hover
+			color: $active-color
+			cursor: pointer
+	&_right
+		right: 0
+		margin-right: -12px
+		background: #f4f4f4 url(../img/also/right.png) center no-repeat
+		&:hover
+			color: $active-color
+			cursor: pointer
