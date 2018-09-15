@@ -1,0 +1,2609 @@
+@charset "UTF-8";
+@import url(reset.sass);
+@import url(media.sass);
+@media (max-width: 576px) {
+  .tf {
+    margin-left: 0;
+    padding-left: 5px !important; }
+  .header {
+    width: 100vw;
+    height: 70px;
+    font-family: 'Gotham Pro Reg';
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px; }
+    .header-flex {
+      width: 100vw;
+      margin-left: 0 !important;
+      margin-right: 0 !important;
+      padding-left: 0px;
+      padding-right: 0px;
+      display: -moz-flex;
+      display: -ms-flex;
+      display: -o-flex;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+      -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+      justify-content: space-between; }
+  .header-logo {
+    background: url(../img/header/logo-sm.png) center no-repeat;
+    height: 27px;
+    width: 109px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 20px; }
+  .header-descr {
+    display: none; }
+  .right-col {
+    padding-right: 5px !important; }
+  .text_phones {
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 0.2px;
+    color: #ffffff;
+    float: right; }
+  .phone-text {
+    height: 10px;
+    color: #ffffff;
+    font-family: "Gotham Pro Reg";
+    font-size: 8.7px;
+    font-weight: 400;
+    letter-spacing: 0px;
+    display: inline-block;
+    margin-bottom: 2px;
+    float: right; }
+  .header_btn {
+    height: 15px;
+    color: #ff3469;
+    font-family: "Gotham Pro Reg";
+    font-size: 11px;
+    font-weight: 400;
+    display: block;
+    border-bottom: 1px solid #ff2e55;
+    float: right; }
+  .right_text {
+    float: right;
+    width: 173px; }
+  .transition:hover {
+    color: #f8a122;
+    cursor: pointer; }
+  .transition {
+    -webkit-transition: 3s;
+    transition: 3s;
+    color: #333333;
+    text-decoration: none; } }
+
+@media (min-width: 577px) and (max-width: 767px) {
+  .tf {
+    margin-top: 0px; }
+  .header {
+    width: 939px;
+    height: 70px;
+    font-family: 'Gotham Pro Reg';
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px; }
+  .header-logo {
+    background: url(../img/header/logo-sm.png) center no-repeat;
+    height: 27px;
+    width: 109px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 20px; }
+  .header-descr {
+    font-size: 11.5px;
+    width: 121px;
+    height: 39px;
+    font-family: "Gotham Pro Lig";
+    font-weight: 300;
+    letter-spacing: 0.12px;
+    display: inline-block;
+    color: #ffffff;
+    vertical-align: middle; }
+  .rus {
+    color: #ff3469;
+    font-family: "Gotham Pro Med";
+    font-weight: 500;
+    letter-spacing: 0.12px; }
+  .text_phones {
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.2px;
+    color: #ffffff;
+    float: right; }
+  .phone-text {
+    height: 10px;
+    color: #ffffff;
+    font-family: "Gotham Pro Reg";
+    font-size: 9.7px;
+    font-weight: 400;
+    letter-spacing: 0px;
+    display: inline-block;
+    margin-bottom: 5px;
+    float: right; }
+  .header_btn {
+    height: 15px;
+    color: #ff3469;
+    font-family: "Gotham Pro Reg";
+    font-size: 12px;
+    font-weight: 400;
+    display: block;
+    border-bottom: 1px solid #ff2e55;
+    float: right; }
+  .right_text {
+    float: right;
+    width: 173px; }
+  .transition:hover {
+    color: #f8a122;
+    cursor: pointer; }
+  .transition {
+    -webkit-transition: 3s;
+    transition: 3s;
+    color: #333333;
+    text-decoration: none; } }
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .tf {
+    margin-top: 0px; }
+  .header {
+    width: 939px;
+    height: 70px;
+    font-family: 'Gotham Pro Reg';
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 30px; }
+  .header-logo {
+    background: url(../img/header/logo.png) center no-repeat;
+    height: 40px;
+    width: 156px;
+    display: inline-block;
+    margin-right: 34px; }
+  .header-descr {
+    font-size: 12px;
+    width: 122px;
+    height: 39px;
+    font-family: "Gotham Pro Lig";
+    font-weight: 300;
+    letter-spacing: 0.12px;
+    display: inline-block;
+    color: #ffffff; }
+  .rus {
+    color: #ff3469;
+    font-family: "Gotham Pro Med";
+    font-weight: 500;
+    letter-spacing: 0.12px; }
+  .text_phones {
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 0.2px;
+    color: #ffffff; }
+  .phone-text {
+    width: 192px;
+    height: 10px;
+    color: #ffffff;
+    font-family: "Gotham Pro Reg";
+    font-size: 11px;
+    font-weight: 400;
+    letter-spacing: 0px;
+    display: inline-block;
+    margin-bottom: 5px; }
+  .header_btn {
+    width: 118px;
+    height: 20px;
+    color: #ff3469;
+    font-family: "Gotham Pro Reg";
+    font-size: 14px;
+    font-weight: 400;
+    display: block;
+    border-bottom: 1px solid #ff2e55;
+    margin-left: 56px; }
+  .right_text {
+    float: right; }
+  .transition:hover {
+    color: #f8a122;
+    cursor: pointer; }
+  .transition {
+    -webkit-transition: 3s;
+    transition: 3s;
+    color: #333333;
+    text-decoration: none; } }
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .tf {
+    margin-top: 55px; }
+  .header {
+    width: 939px;
+    height: 180px;
+    font-family: 'Gotham Pro Reg';
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-bottom: 30px; }
+  .header-logo {
+    background: url(../img/header/logo.png) center no-repeat;
+    height: 40px;
+    width: 156px;
+    display: inline-block;
+    margin-right: 34px; }
+  .header-descr {
+    font-size: 12px;
+    width: 122px;
+    height: 39px;
+    font-family: "Gotham Pro Lig";
+    font-weight: 300;
+    letter-spacing: 0.12px;
+    display: inline-block;
+    color: #ffffff; }
+  .rus {
+    color: #ff3469;
+    font-family: "Gotham Pro Med";
+    font-weight: 500;
+    letter-spacing: 0.12px; }
+  .text_phones {
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 0.2px;
+    color: #ffffff; }
+  .phone-text {
+    width: 192px;
+    height: 10px;
+    color: #ffffff;
+    font-family: "Gotham Pro Reg";
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 0.12px;
+    display: inline-block;
+    margin-bottom: 16px; }
+  .header_btn {
+    width: 135px;
+    height: 20px;
+    color: #ff3469;
+    font-family: "Gotham Pro Reg";
+    font-size: 16px;
+    font-weight: 400;
+    display: block;
+    border-bottom: 1px solid #ff2e55;
+    margin-left: 57px; }
+    .header_btn:hover {
+      cursor: pointer;
+      color: white; }
+  .right_text {
+    float: right; }
+  .transition:hover {
+    color: #f8a122;
+    cursor: pointer; }
+  .transition {
+    -webkit-transition: 3s;
+    transition: 3s;
+    color: #333333;
+    text-decoration: none; } }
+
+@media (min-width: 1200px) {
+  .tf {
+    margin-top: 55px; }
+  .header {
+    width: 939px;
+    height: 140px;
+    font-family: 'Gotham Pro Reg';
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-bottom: 96px; }
+  .header-logo {
+    background: url(../img/header/logo.png) center no-repeat;
+    height: 40px;
+    width: 156px;
+    display: inline-block;
+    margin-right: 34px; }
+  .header-descr {
+    font-size: 12px;
+    width: 122px;
+    height: 39px;
+    font-family: "Gotham Pro Lig";
+    font-weight: 300;
+    letter-spacing: 0.12px;
+    display: inline-block;
+    color: #ffffff; }
+  .rus {
+    color: #ff3469;
+    font-family: "Gotham Pro Med";
+    font-weight: 500;
+    letter-spacing: 0.12px; }
+  .text_phones {
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 0.2px;
+    color: #ffffff; }
+  .phone-text {
+    width: 192px;
+    height: 10px;
+    color: #ffffff;
+    font-family: "Gotham Pro Reg";
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 0.12px;
+    display: inline-block;
+    margin-bottom: 16px; }
+  .header_btn {
+    width: 135px;
+    height: 20px;
+    color: #ff3469;
+    font-family: "Gotham Pro Reg";
+    font-size: 16px;
+    font-weight: 400;
+    display: block;
+    border-bottom: 1px solid #ff2e55;
+    margin-left: 57px; }
+    .header_btn:hover {
+      cursor: pointer;
+      color: white; }
+  .right_text {
+    margin-left: 340px; }
+  .transition:hover {
+    color: #f8a122;
+    cursor: pointer; }
+  .transition {
+    -webkit-transition: 3s;
+    transition: 3s;
+    color: #333333;
+    text-decoration: none; } }
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .flower-1 {
+    background: url(../img/also/flo1.png) center no-repeat;
+    width: 39px;
+    height: 24px;
+    display: block;
+    margin-bottom: 24px;
+    margin-left: 250px; } }
+
+@media (min-width: 1200px) {
+  .flower-1 {
+    background: url(../img/also/flo1.png) center no-repeat;
+    width: 39px;
+    height: 24px;
+    display: block;
+    margin-bottom: 24px;
+    margin-left: 250px; } }
+
+@media (max-width: 576px) {
+  .main {
+    display: block;
+    text-align: center;
+    width: 988px;
+    position: relative; }
+    .main-text_1 {
+      font-size: 23px;
+      font-weight: 500;
+      text-transform: uppercase;
+      color: #ffffff;
+      letter-spacing: 0.34px;
+      font-family: "Gotham Pro Reg";
+      width: 90vw;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 33px; }
+    .main-text_2 {
+      color: #ffffff;
+      font-size: 13px;
+      font-weight: 300;
+      text-transform: uppercase;
+      font-family: "Gotham Pro Lig";
+      font-weight: 300;
+      letter-spacing: 0.18px;
+      width: 90vw;
+      height: 38px;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 37px; }
+      .main-text_2-extra {
+        font-family: "Gotham Pro Med";
+        font-weight: 500;
+        letter-spacing: 0.18px; }
+  .row {
+    width: 100%;
+    max-width: 576px;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-left: 0 !important;
+    margin-right: 0 !important; }
+  .main-slider {
+    width: 90vw;
+    height: 107px;
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    margin-bottom: 47px; }
+    .main-slider_item > img {
+      display: inline-block; }
+  .slider-arrow {
+    position: absolute;
+    display: none;
+    width: 10px;
+    height: 100px;
+    color: #fff; }
+    .slider-arrow_left {
+      background: url(../img/main/left.png) center no-repeat;
+      left: 10px;
+      color: #fff;
+      z-index: 100; }
+      .slider-arrow_left:hover {
+        background: url(../img/main/active_left.png) center no-repeat; }
+    .slider-arrow_right {
+      background: url(../img/main/right.png) center no-repeat;
+      bottom: 8px;
+      right: 10px;
+      color: #fff; }
+      .slider-arrow_right:hover {
+        background: url(../img/main/active_right.png) center no-repeat; }
+  .slick-slide {
+    margin-left: 30px;
+    margin-right: 30px; }
+  .sale-text {
+    margin-left: auto;
+    margin-right: auto;
+    width: 90vw;
+    height: 21px;
+    color: #ffffff;
+    font-family: "Gotham Pro Reg";
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.19px;
+    margin-bottom: 29px;
+    margin-top: 20px; }
+    .sale-text10 {
+      font-family: "Gotham Pro Med";
+      font-weight: 500;
+      letter-spacing: 0.19px; }
+  .main-btn {
+    margin-left: auto;
+    margin-right: auto;
+    width: 230px;
+    height: 49px;
+    background-color: #ff2e55;
+    border: 3px solid #ff2e55;
+    color: #ffffff;
+    font-family: "Gotham Pro Reg";
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.18px;
+    margin-bottom: 37px; } }
+
+@media (min-width: 577px) and (max-width: 767px) {
+  .main {
+    display: block;
+    text-align: center;
+    width: 988px; }
+    .main-text_1 {
+      font-size: 26px;
+      font-weight: 500;
+      text-transform: uppercase;
+      color: #ffffff;
+      letter-spacing: 0.34px;
+      font-family: "Gotham Pro Reg";
+      width: 545px;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 33px; }
+    .main-text_2 {
+      color: #ffffff;
+      font-size: 14px;
+      font-weight: 300;
+      text-transform: uppercase;
+      font-family: "Gotham Pro Lig";
+      font-weight: 300;
+      letter-spacing: 0.18px;
+      width: 520px;
+      height: 38px;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 37px; }
+      .main-text_2-extra {
+        font-family: "Gotham Pro Med";
+        font-weight: 500;
+        letter-spacing: 0.18px; }
+  .row {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center; }
+  .main-slider {
+    width: 90vw;
+    height: 107px;
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    margin-bottom: 47px; }
+    .main-slider_item {
+      width: auto; }
+      .main-slider_item > img {
+        display: inline-block; }
+  .slider-arrow {
+    position: absolute;
+    display: inline-block;
+    width: 10px;
+    height: 100px;
+    color: #fff; }
+    .slider-arrow_left {
+      background: url(../img/main/left.png) center no-repeat;
+      left: 10px;
+      color: #fff;
+      z-index: 100; }
+      .slider-arrow_left:hover {
+        background: url(../img/main/active_left.png) center no-repeat; }
+    .slider-arrow_right {
+      background: url(../img/main/right.png) center no-repeat;
+      bottom: 8px;
+      right: 10px;
+      color: #fff; }
+      .slider-arrow_right:hover {
+        background: url(../img/main/active_right.png) center no-repeat; }
+  .slick-slide {
+    margin-left: 30px;
+    margin-right: 30px; }
+  .sale-text {
+    margin-left: auto;
+    margin-right: auto;
+    width: 526px;
+    height: 21px;
+    color: #ffffff;
+    font-family: "Gotham Pro Reg";
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.19px;
+    margin-bottom: 26px; }
+    .sale-text10 {
+      font-family: "Gotham Pro Med";
+      font-weight: 500;
+      letter-spacing: 0.19px; }
+  .main-btn {
+    margin-left: auto;
+    margin-right: auto;
+    width: 230px;
+    height: 49px;
+    background-color: #ff2e55;
+    border: 3px solid #ff2e55;
+    color: #ffffff;
+    font-family: "Gotham Pro Reg";
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.18px;
+    margin-bottom: 77px; } }
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .main {
+    display: block;
+    text-align: center;
+    width: 988px; }
+    .main-text_1 {
+      font-size: 30px;
+      font-weight: 500;
+      text-transform: uppercase;
+      color: #ffffff;
+      letter-spacing: 0.34px;
+      font-family: "Gotham Pro Reg";
+      width: 653px;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 33px; }
+    .main-text_2 {
+      color: #ffffff;
+      font-size: 16px;
+      font-weight: 300;
+      text-transform: uppercase;
+      font-family: "Gotham Pro Lig";
+      font-weight: 300;
+      letter-spacing: 0.18px;
+      width: 558px;
+      height: 38px;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 37px; }
+      .main-text_2-extra {
+        font-family: "Gotham Pro Med";
+        font-weight: 500;
+        letter-spacing: 0.18px; }
+  .row {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center; }
+  .main-slider {
+    width: 90vw;
+    height: 107px;
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    margin-bottom: 67px; }
+    .main-slider_item {
+      width: auto; }
+      .main-slider_item > img {
+        display: inline-block; }
+  .slider-arrow {
+    position: absolute;
+    display: inline-block;
+    width: 10px;
+    height: 100px;
+    color: #fff; }
+    .slider-arrow_left {
+      background: url(../img/main/left.png) center no-repeat;
+      left: 10px;
+      color: #fff;
+      z-index: 100; }
+      .slider-arrow_left:hover {
+        background: url(../img/main/active_left.png) center no-repeat; }
+    .slider-arrow_right {
+      background: url(../img/main/right.png) center no-repeat;
+      bottom: 8px;
+      right: 10px;
+      color: #fff; }
+      .slider-arrow_right:hover {
+        background: url(../img/main/active_right.png) center no-repeat; }
+  .slick-slide {
+    margin-left: 30px;
+    margin-right: 30px; }
+  .sale-text {
+    margin-left: auto;
+    margin-right: auto;
+    width: 566px;
+    height: 21px;
+    color: #ffffff;
+    font-family: "Gotham Pro Reg";
+    font-size: 17px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.19px;
+    margin-bottom: 26px; }
+    .sale-text10 {
+      font-family: "Gotham Pro Med";
+      font-weight: 500;
+      letter-spacing: 0.19px; }
+  .main-btn {
+    margin-left: auto;
+    margin-right: auto;
+    width: 260px;
+    height: 56px;
+    background-color: #ff2e55;
+    border: 3px solid #ff2e55;
+    color: #ffffff;
+    font-family: "Gotham Pro Reg";
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.18px;
+    margin-bottom: 77px; } }
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .main {
+    display: block;
+    text-align: center;
+    width: 988px; }
+    .main-text_1 {
+      font-size: 34px;
+      font-weight: 500;
+      text-transform: uppercase;
+      color: #ffffff;
+      letter-spacing: 0.34px;
+      font-family: "Gotham Pro Reg";
+      width: 653px;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 33px; }
+    .main-text_2 {
+      color: #ffffff;
+      font-size: 18px;
+      font-weight: 300;
+      text-transform: uppercase;
+      font-family: "Gotham Pro Lig";
+      font-weight: 300;
+      letter-spacing: 0.18px;
+      width: 558px;
+      height: 38px;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 87px; }
+      .main-text_2-extra {
+        font-family: "Gotham Pro Med";
+        font-weight: 500;
+        letter-spacing: 0.18px; }
+  .main-slider {
+    width: 992px;
+    height: 107px;
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    margin-bottom: 67px; }
+    .main-slider_item {
+      width: auto; }
+      .main-slider_item > img {
+        display: inline-block; }
+  .slider-arrow {
+    position: absolute;
+    display: inline-block;
+    width: 10px;
+    height: 100px;
+    color: #fff; }
+    .slider-arrow_left {
+      background: url(../img/main/left.png) center no-repeat;
+      left: 10px;
+      color: #fff;
+      z-index: 100; }
+      .slider-arrow_left:hover {
+        background: url(../img/main/active_left.png) center no-repeat;
+        cursor: pointer; }
+    .slider-arrow_right {
+      background: url(../img/main/right.png) center no-repeat;
+      bottom: 8px;
+      right: 10px;
+      color: #fff; }
+      .slider-arrow_right:hover {
+        background: url(../img/main/active_right.png) center no-repeat;
+        cursor: pointer; }
+  .slick-slide {
+    margin-left: 30px;
+    margin-right: 30px; }
+  .sale-text {
+    margin-left: auto;
+    margin-right: auto;
+    width: 566px;
+    height: 21px;
+    color: #ffffff;
+    font-family: "Gotham Pro Reg";
+    font-size: 19px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.19px;
+    margin-bottom: 36px; }
+    .sale-text10 {
+      font-family: "Gotham Pro Med";
+      font-weight: 500;
+      letter-spacing: 0.19px; }
+  .main-btn {
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    height: 70px;
+    background-color: #ff2e55;
+    border: 3px solid #ff2e55;
+    color: #ffffff;
+    font-family: "Gotham Pro Reg";
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.18px;
+    margin-bottom: 77px; } }
+
+@media (min-width: 1200px) {
+  .main {
+    display: block;
+    text-align: center;
+    width: 988px; }
+    .main-text_1 {
+      font-size: 34px;
+      font-weight: 500;
+      text-transform: uppercase;
+      color: #ffffff;
+      letter-spacing: 0.34px;
+      font-family: "Gotham Pro Reg";
+      width: 653px;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 33px; }
+    .main-text_2 {
+      color: #ffffff;
+      font-size: 18px;
+      font-weight: 300;
+      text-transform: uppercase;
+      font-family: "Gotham Pro Lig";
+      font-weight: 300;
+      letter-spacing: 0.18px;
+      width: 558px;
+      height: 38px;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 87px; }
+      .main-text_2-extra {
+        font-family: "Gotham Pro Med";
+        font-weight: 500;
+        letter-spacing: 0.18px; }
+  .main-slider {
+    width: 1018px;
+    height: 107px;
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    margin-bottom: 67px; }
+    .main-slider_item {
+      width: auto; }
+      .main-slider_item > img {
+        display: inline-block; }
+  .slider-arrow {
+    position: absolute;
+    display: inline-block;
+    width: 10px;
+    height: 100px;
+    color: #fff; }
+    .slider-arrow_left {
+      background: url(../img/main/left.png) center no-repeat;
+      left: 0;
+      color: #fff;
+      z-index: 100; }
+      .slider-arrow_left:hover {
+        background: url(../img/main/active_left.png) center no-repeat;
+        cursor: pointer; }
+    .slider-arrow_right {
+      background: url(../img/main/right.png) center no-repeat;
+      bottom: 8px;
+      right: 0;
+      color: #fff; }
+      .slider-arrow_right:hover {
+        background: url(../img/main/active_right.png) center no-repeat;
+        cursor: pointer; }
+  .slick-slide {
+    margin-left: 30px;
+    margin-right: 30px; }
+  .sale-text {
+    margin-left: auto;
+    margin-right: auto;
+    width: 566px;
+    height: 21px;
+    color: #ffffff;
+    font-family: "Gotham Pro Reg";
+    font-size: 19px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.19px;
+    margin-bottom: 36px; }
+    .sale-text10 {
+      font-family: "Gotham Pro Med";
+      font-weight: 500;
+      letter-spacing: 0.19px; }
+  .main-btn {
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    height: 70px;
+    background-color: #ff2e55;
+    border: 3px solid #ff2e55;
+    color: #ffffff;
+    font-family: "Gotham Pro Reg";
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.18px;
+    margin-bottom: 77px; } }
+
+@media (max-width: 576px) {
+  .reviews {
+    margin-top: -20px; }
+  .row {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center; }
+  .review-title {
+    margin-bottom: 66px;
+    color: #ffffff;
+    font-family: "Gotham Pro Med";
+    font-size: 28px;
+    text-transform: uppercase;
+    letter-spacing: 0.3px;
+    text-align: center; }
+  .reviews-slider {
+    max-width: 961px;
+    max-height: 450px;
+    margin-bottom: 48px;
+    width: 90vw; }
+    .reviews-slider_item {
+      max-height: 420px;
+      display: -moz-flex;
+      display: -ms-flex;
+      display: -o-flex;
+      display: -webkit-box !important;
+      display: -ms-flexbox !important;
+      display: flex !important;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap; }
+  .review-img {
+    display: inline-block;
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    background: #fff url(../img/reviews/1.png) center no-repeat;
+    text-align: center;
+    vertical-align: middle;
+    color: #ffffff;
+    font-family: "Gotham Pro Reg";
+    font-size: 16px;
+    padding-top: 25%;
+    margin-right: 0;
+    margin-left: 0;
+    margin-bottom: 20px; }
+  .review-text {
+    vertical-align: middle;
+    text-align: center;
+    display: inline-block;
+    color: #ffffff;
+    font-family: "Gotham Pro Lig";
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 0.18px;
+    width: 90vw;
+    opacity: 1; }
+    .review-text_all {
+      color: #f24841;
+      font-family: "Gotham Pro Reg";
+      font-size: 16px;
+      font-weight: 400;
+      letter-spacing: 0.18px;
+      border-bottom: 1px solid #f24841;
+      margin-top: 10px;
+      margin-left: auto;
+      margin-right: auto;
+      width: 280px; }
+  .rev-slider-arrow {
+    height: 220px;
+    width: 21px;
+    background-color: orange;
+    position: absolute;
+    display: none;
+    margin-top: 100px; }
+    .rev-slider-arrow_left {
+      z-index: 1000;
+      top: 0;
+      left: 0;
+      background: url(../img/reviews/left.png) center no-repeat; }
+    .rev-slider-arrow_right {
+      top: 0;
+      right: 0;
+      background: url(../img/reviews/right.png) center no-repeat; }
+  .advantures-height {
+    height: 250px; }
+  .advantures {
+    margin-top: 30px;
+    height: 179px;
+    position: relative;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-bottom: 12px; }
+    .advantures-img_1 {
+      width: 78px;
+      height: 81px;
+      background: url(../img/reviews/location.png) center no-repeat;
+      background-size: 95%; }
+    .advantures-img_2 {
+      width: 66px;
+      height: 66px;
+      background: url(../img/reviews/experience.png) center no-repeat;
+      background-size: 95%; }
+    .advantures-img_3 {
+      width: 76px;
+      height: 77px;
+      background: url(../img/reviews/care.png) center no-repeat;
+      background-size: 95%; }
+  .advantures-text {
+    margin-top: -10px;
+    position: absolute;
+    height: 66px;
+    bottom: 0;
+    color: #ffffff;
+    font-family: "Gotham Pro Med";
+    font-size: 18px;
+    text-align: center;
+    line-height: 25px;
+    text-transform: uppercase;
+    letter-spacing: 0.2px; }
+    .advantures-text_1 {
+      width: 217px; }
+    .advantures-text_2 {
+      width: 212px; }
+    .advantures-text_3 {
+      width: 263px; } }
+
+@media (min-width: 577px) and (max-width: 767px) {
+  .row {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center; }
+  .review-title {
+    margin-bottom: 66px;
+    color: #ffffff;
+    font-family: "Gotham Pro Med";
+    font-size: 28px;
+    text-transform: uppercase;
+    letter-spacing: 0.3px;
+    text-align: center; }
+  .reviews-slider {
+    max-width: 961px;
+    max-height: 420px;
+    margin-bottom: 78px;
+    width: 90vw; }
+    .reviews-slider_item {
+      max-height: 420px;
+      display: -moz-flex;
+      display: -ms-flex;
+      display: -o-flex;
+      display: -webkit-box !important;
+      display: -ms-flexbox !important;
+      display: flex !important;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap; }
+  .review-img {
+    display: inline-block;
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    background: #fff url(../img/reviews/1.png) center no-repeat;
+    text-align: center;
+    vertical-align: middle;
+    color: #ffffff;
+    font-family: "Gotham Pro Reg";
+    font-size: 20px;
+    padding-top: 19%;
+    margin-right: 0;
+    margin-left: 0;
+    margin-bottom: 20px; }
+  .review-text {
+    vertical-align: middle;
+    text-align: center;
+    display: inline-block;
+    color: #ffffff;
+    font-family: "Gotham Pro Lig";
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: 0.18px;
+    width: 411px;
+    opacity: 1; }
+    .review-text_all {
+      color: #f24841;
+      width: 306px;
+      font-family: "Gotham Pro Reg";
+      font-size: 18px;
+      font-weight: 400;
+      letter-spacing: 0.18px;
+      border-bottom: 1px solid #f24841;
+      margin-top: 19px;
+      margin-left: auto;
+      margin-right: auto; }
+  .rev-slider-arrow {
+    height: 220px;
+    width: 21px;
+    background-color: orange;
+    position: absolute;
+    display: inline-block;
+    margin-top: 100px; }
+    .rev-slider-arrow_left {
+      z-index: 1000;
+      top: 0;
+      left: 0;
+      background: url(../img/reviews/left.png) center no-repeat; }
+    .rev-slider-arrow_right {
+      top: 0;
+      right: 0;
+      background: url(../img/reviews/right.png) center no-repeat; }
+  .advantures {
+    height: 179px;
+    position: relative;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-bottom: 102px; }
+    .advantures-img_1 {
+      width: 78px;
+      height: 81px;
+      background: url(../img/reviews/location.png) center no-repeat;
+      background-size: 95%; }
+    .advantures-img_2 {
+      width: 66px;
+      height: 66px;
+      background: url(../img/reviews/experience.png) center no-repeat;
+      background-size: 95%; }
+    .advantures-img_3 {
+      width: 76px;
+      height: 77px;
+      background: url(../img/reviews/care.png) center no-repeat;
+      background-size: 95%; }
+  .advantures-text {
+    margin-top: -10px;
+    position: absolute;
+    height: 66px;
+    bottom: 0;
+    color: #ffffff;
+    font-family: "Gotham Pro Med";
+    font-size: 18px;
+    text-align: center;
+    line-height: 25px;
+    text-transform: uppercase;
+    letter-spacing: 0.2px; }
+    .advantures-text_1 {
+      width: 217px; }
+    .advantures-text_2 {
+      width: 212px; }
+    .advantures-text_3 {
+      width: 263px; } }
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .row {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center; }
+  .review-title {
+    margin-bottom: 96px;
+    color: #ffffff;
+    font-family: "Gotham Pro Med";
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 0.3px;
+    text-align: center; }
+  .reviews-slider {
+    max-width: 961px;
+    max-height: 220px;
+    margin-bottom: 78px;
+    width: 100%; }
+    .reviews-slider_item {
+      max-height: 220px; }
+  .review-img {
+    display: inline-block;
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    background: #fff url(../img/reviews/1.png) center no-repeat;
+    text-align: center;
+    vertical-align: middle;
+    color: #ffffff;
+    font-family: "Gotham Pro Reg";
+    font-size: 20px;
+    padding-top: 12.5%;
+    margin-right: 22px;
+    margin-left: 2%;
+    margin-bottom: 20px; }
+  .review-text {
+    vertical-align: middle;
+    display: inline-block;
+    color: #ffffff;
+    font-family: "Gotham Pro Lig";
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: 0.18px;
+    width: 411px;
+    opacity: 1; }
+    .review-text_all {
+      color: #f24841;
+      width: 306px;
+      font-family: "Gotham Pro Reg";
+      font-size: 18px;
+      font-weight: 400;
+      letter-spacing: 0.18px;
+      border-bottom: 1px solid #f24841;
+      margin-top: 19px; }
+  .rev-slider-arrow {
+    height: 220px;
+    width: 21px;
+    background-color: orange;
+    position: absolute;
+    display: inline-block; }
+    .rev-slider-arrow_left {
+      z-index: 1000;
+      top: 0;
+      left: 0;
+      background: url(../img/reviews/left.png) center no-repeat; }
+    .rev-slider-arrow_right {
+      top: 0;
+      right: 0;
+      background: url(../img/reviews/right.png) center no-repeat; }
+  .advantures {
+    height: 179px;
+    position: relative;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-bottom: 102px; }
+    .advantures-img_1 {
+      width: 78px;
+      height: 81px;
+      background: url(../img/reviews/location.png) center no-repeat;
+      background-size: 95%; }
+    .advantures-img_2 {
+      width: 66px;
+      height: 66px;
+      background: url(../img/reviews/experience.png) center no-repeat;
+      background-size: 95%; }
+    .advantures-img_3 {
+      width: 76px;
+      height: 77px;
+      background: url(../img/reviews/care.png) center no-repeat;
+      background-size: 95%; }
+  .advantures-text {
+    margin-top: -10px;
+    position: absolute;
+    height: 66px;
+    bottom: 0;
+    color: #ffffff;
+    font-family: "Gotham Pro Med";
+    font-size: 18px;
+    text-align: center;
+    line-height: 25px;
+    text-transform: uppercase;
+    letter-spacing: 0.2px; }
+    .advantures-text_1 {
+      width: 217px; }
+    .advantures-text_2 {
+      width: 212px; }
+    .advantures-text_3 {
+      width: 263px; } }
+
+@media (min-width: 992px) {
+  .row {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center; }
+  .review-title {
+    margin-bottom: 96px;
+    color: #ffffff;
+    font-family: "Gotham Pro Med";
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 0.3px;
+    text-align: center; }
+  .reviews-slider {
+    max-width: 961px;
+    max-height: 220px;
+    margin-bottom: 98px; }
+    .reviews-slider_item {
+      max-height: 220px; }
+  .review-img {
+    display: inline-block;
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    background: #fff url(../img/reviews/1.png) center no-repeat;
+    text-align: center;
+    vertical-align: middle;
+    color: #ffffff;
+    font-family: "Gotham Pro Reg";
+    font-size: 20px;
+    padding-top: 10%;
+    margin-right: 52px;
+    margin-left: 60px; }
+  .review-text {
+    vertical-align: middle;
+    display: inline-block;
+    color: #ffffff;
+    font-family: "Gotham Pro Lig";
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: 0.18px;
+    width: 511px;
+    opacity: 1; }
+    .review-text_all {
+      color: #f24841;
+      width: 306px;
+      font-family: "Gotham Pro Reg";
+      font-size: 18px;
+      font-weight: 400;
+      letter-spacing: 0.18px;
+      border-bottom: 1px solid #f24841;
+      margin-top: 19px; }
+      .review-text_all:hover {
+        cursor: pointer;
+        color: #fff; }
+  .rev-slider-arrow {
+    height: 220px;
+    width: 21px;
+    background-color: orange;
+    position: absolute;
+    display: inline-block; }
+    .rev-slider-arrow_left {
+      z-index: 1000;
+      top: 0;
+      left: 0;
+      background: url(../img/reviews/left.png) center no-repeat; }
+      .rev-slider-arrow_left:hover {
+        cursor: pointer;
+        opacity: 0.5; }
+    .rev-slider-arrow_right {
+      top: 0;
+      right: 0;
+      background: url(../img/reviews/right.png) center no-repeat; }
+      .rev-slider-arrow_right:hover {
+        cursor: pointer;
+        opacity: 0.5; }
+  .advantures {
+    height: 179px;
+    position: relative;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-bottom: 102px; }
+    .advantures-img_1 {
+      width: 78px;
+      height: 81px;
+      background: url(../img/reviews/location.png) center no-repeat; }
+    .advantures-img_2 {
+      width: 66px;
+      height: 66px;
+      background: url(../img/reviews/experience.png) center no-repeat; }
+    .advantures-img_3 {
+      width: 76px;
+      height: 77px;
+      background: url(../img/reviews/care.png) center no-repeat; }
+  .advantures-text {
+    position: absolute;
+    height: 66px;
+    bottom: 0;
+    color: #ffffff;
+    font-family: "Gotham Pro Med";
+    font-size: 20px;
+    text-align: center;
+    line-height: 25px;
+    text-transform: uppercase;
+    letter-spacing: 0.2px; }
+    .advantures-text_1 {
+      width: 217px; }
+    .advantures-text_2 {
+      width: 212px; }
+    .advantures-text_3 {
+      width: 263px; } }
+
+.flowers-title {
+  color: #ffffff;
+  font-family: "Gotham Pro Med";
+  font-size: 30px;
+  text-transform: uppercase;
+  letter-spacing: 0.3px;
+  text-align: center;
+  margin-bottom: 27px; }
+
+.right-now {
+  color: #ff1844; }
+
+.flowers-subtitle {
+  color: #ffffff;
+  font-family: "Gotham Pro Reg";
+  font-size: 18px;
+  letter-spacing: 0.18px;
+  text-align: center;
+  margin-bottom: 77px; }
+
+.flowers-item {
+  width: 210px;
+  height: 380px;
+  border: 3px solid #ffffff;
+  margin-bottom: 27px;
+  margin-left: auto;
+  margin-right: auto; }
+  .flowers-item_img {
+    margin-top: 33px;
+    margin-bottom: 23px;
+    background: url(../img/flowers/rose.png) center no-repeat;
+    width: 118px;
+    height: 72px;
+    margin-left: auto;
+    margin-right: auto; }
+  .flowers-item_name {
+    text-align: center;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 16px;
+    color: #fff;
+    font-family: "Gotham Pro Med";
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.2px;
+    margin-bottom: 20px; }
+  .flowers-item_choose-text {
+    color: #ffffff;
+    text-align: center;
+    font-family: "Gotham Pro Reg";
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.14px;
+    margin-bottom: 7px; }
+  .flowers-item_color {
+    width: 20px;
+    height: 20px;
+    display: inline-block; }
+    .flowers-item_color1 {
+      background-color: #ffffff; }
+    .flowers-item_color2 {
+      background-color: #f7b496; }
+    .flowers-item_color3 {
+      background-color: #ed366e; }
+    .flowers-item_color4 {
+      background-color: #ff0000; }
+    .flowers-item_color5 {
+      background-color: #12129d; }
+  .flowers-item_amount {
+    width: 40px;
+    height: 40px;
+    border: 2px solid #fff;
+    display: inline-block;
+    vertical-align: middle;
+    color: #ffffff;
+    font-family: "Gotham Pro Med";
+    font-size: 16px;
+    letter-spacing: 0.16px;
+    padding: 9px 0px 10px 0px;
+    text-align: center; }
+    .flowers-item_amount-text {
+      text-align: center;
+      color: #fff;
+      font-family: "Gotham Pro Reg";
+      font-size: 14px;
+      letter-spacing: 0.14px;
+      margin-bottom: 10px; }
+
+.amount {
+  text-align: center;
+  margin-bottom: 20px; }
+
+.amount::-moz-selection, .plus::-moz-selection, .minus::-moz-selection, .flowers-item_amount::-moz-selection {
+  background: transparent; }
+
+.amount::selection, .plus::selection, .minus::selection, .flowers-item_amount::selection {
+  background: transparent; }
+
+.amount::-moz-selection, .plus::-moz-selection, .minus::-moz-selection, .flowers-item_amount::-moz-selection {
+  background: transparent; }
+
+.plus {
+  display: inline-block;
+  vertical-align: middle;
+  color: #ffffff;
+  font-family: "Gotham Pro Med";
+  font-size: 16px;
+  letter-spacing: 0.16px;
+  margin-left: 12px; }
+
+.minus {
+  margin-right: 15px;
+  display: inline-block;
+  vertical-align: middle;
+  color: #ffffff;
+  font-family: "Gotham Pro Med";
+  font-size: 16px;
+  letter-spacing: 0.16px; }
+
+.flowers-btn {
+  width: 140px;
+  height: 40px;
+  display: block;
+  color: #fff;
+  font-family: "Gotham Pro Med";
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 0.14px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #f24841; }
+
+.flowers-color_item {
+  margin-left: auto;
+  margin-right: auto;
+  width: 140px;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin-bottom: 20px; }
+
+.all-flowers {
+  width: 100%;
+  text-align: center; }
+  .all-flowers_text {
+    width: 74.8px;
+    color: #f24841;
+    font-family: "Gotham Pro Reg";
+    font-size: 14px;
+    letter-spacing: 0.14px;
+    border-bottom: 1px solid #f24841;
+    display: inline-block;
+    margin-bottom: 68px; }
+  .all-flowers_icon {
+    display: inline-block;
+    background: url(../img/also/down.png) center no-repeat;
+    margin-left: 10px;
+    width: 10px;
+    height: 4px; }
+
+.all-flowers_hide {
+  display: none;
+  width: 100%;
+  text-align: center; }
+
+.all-flowers_icon_hide {
+  display: inline-block;
+  background: url(../img/also/up.png) center no-repeat;
+  margin-left: 10px;
+  width: 10px;
+  height: 4px; }
+
+.all-flowers_text_hide {
+  color: #f24841;
+  font-family: "Gotham Pro Reg";
+  font-size: 14px;
+  letter-spacing: 0.14px;
+  border-bottom: 1px solid #f24841;
+  display: inline-block;
+  margin-bottom: 68px; }
+
+.more-flowers {
+  display: none; }
+
+@media (max-width: 1199px) {
+  .flowers-item {
+    margin-bottom: 45px; } }
+
+@media (min-width: 992px) {
+  .all-flowers_text:hover {
+    cursor: pointer;
+    color: #fff; }
+  .all-flowers_icon:hover {
+    cursor: pointer;
+    opacity: 0.5; }
+  .all-flowers_text_hide:hover {
+    cursor: pointer;
+    color: #fff; }
+  .all-flowers_icon_hide:hover {
+    cursor: pointer;
+    opacity: 0.5; }
+  .flowers-item_color:hover {
+    cursor: pointer;
+    opacity: 0.6; }
+  .plus:hover {
+    cursor: pointer;
+    opacity: 0.7; }
+  .minus:hover {
+    cursor: pointer;
+    opacity: 0.7; }
+  .flowers-btn:hover {
+    cursor: pointer;
+    opacity: 0.8; } }
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .flowers-title {
+    font-size: 28px; }
+  .flowers-subtitle {
+    font-size: 16px; } }
+
+@media (min-width: 577px) and (max-width: 767px) {
+  .flowers-title {
+    margin-top: -20px;
+    font-size: 30px;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto; }
+  .flowers-subtitle {
+    font-size: 15px;
+    margin-bottom: 40px;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto; } }
+
+@media (max-width: 576px) {
+  .flowers-title {
+    margin-top: -20px;
+    font-size: 25px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto; }
+  .flowers-subtitle {
+    display: none;
+    font-size: 15px;
+    margin-bottom: 40px;
+    width: 90vw;
+    margin-left: auto;
+    margin-right: auto; } }
+
+.questions {
+  height: 390px;
+  width: 100%;
+  background-color: #000;
+  padding-top: 71px; }
+
+.question {
+  color: #ffffff;
+  font-family: "Gotham Pro Med";
+  font-size: 30px;
+  text-transform: uppercase;
+  letter-spacing: 0.3px;
+  text-align: center;
+  margin-bottom: 29px; }
+
+.take_call {
+  width: 694px;
+  border-bottom: 1px solid #fff;
+  margin-left: auto;
+  margin-right: auto;
+  color: #ffffff;
+  font-family: "Gotham Pro Med";
+  font-size: 30px;
+  text-transform: uppercase;
+  letter-spacing: 0.3px;
+  margin-bottom: 65px; }
+
+.or_call {
+  color: #ffffff;
+  font-family: "Gotham Pro Reg";
+  font-size: 14px;
+  letter-spacing: 0.14px;
+  margin-bottom: 22px;
+  text-align: center; }
+
+.questions_number {
+  color: #ffffff;
+  font-family: "Gotham Pro Reg";
+  font-size: 36px;
+  letter-spacing: 0.36px;
+  text-align: center;
+  text-decoration: none; }
+
+@media (min-width: 992px) {
+  .questions_number:hover, .take_call:hover {
+    cursor: pointer;
+    color: #f24841; } }
+
+@media (max-width: 991px) and (min-width: 768px) {
+  .questions {
+    height: 386px;
+    width: 100%;
+    background-color: #000;
+    padding-top: 76px; }
+  .question {
+    font-size: 28px;
+    margin-bottom: 35px; }
+  .take_call {
+    width: 648px;
+    font-size: 28px;
+    margin-bottom: 45px; }
+  .or_call {
+    margin-bottom: 27px; }
+  .questions_number {
+    font-size: 34px; } }
+
+@media (max-width: 767px) and (min-width: 576px) {
+  .questions {
+    height: 386px;
+    width: 100%;
+    background-color: #000;
+    padding-top: 76px; }
+  .question {
+    font-size: 28px;
+    margin-bottom: 25px;
+    opacity: 0.8; }
+  .take_call {
+    text-align: center;
+    width: 328px;
+    font-size: 28px;
+    margin-bottom: 45px; }
+  .or_call {
+    opacity: 0.8;
+    margin-bottom: 27px; }
+  .questions_number {
+    font-size: 30px; } }
+
+@media (max-width: 575px) {
+  .questions {
+    height: 354px;
+    width: 100%;
+    background-color: #000;
+    padding-top: 60px; }
+  .question {
+    font-size: 23px;
+    margin-bottom: 25px;
+    opacity: 0.8; }
+  .take_call {
+    text-align: center;
+    width: 300px;
+    font-size: 25px;
+    margin-bottom: 45px; }
+  .or_call {
+    opacity: 0.8;
+    margin-bottom: 27px; }
+  .questions_number {
+    font-size: 30px; } }
+
+.delivery {
+  padding-top: 52px;
+  height: 164px;
+  width: 100%; }
+
+.delivery-text, .delivery-payment_text {
+  display: inline-block;
+  color: #ffffff;
+  font-family: "Gotham Pro Med";
+  font-size: 18px;
+  letter-spacing: 0.18px;
+  border-bottom: 1px solid white;
+  text-transform: uppercase;
+  margin-bottom: 33px; }
+
+.delivery-payment_text {
+  margin-left: 34px; }
+
+.join {
+  color: #ffffff;
+  font-family: "Gotham Pro Lig";
+  font-size: 16px;
+  letter-spacing: 0.16px; }
+
+.vk-icon {
+  margin-bottom: -4px;
+  margin-left: 10px;
+  background: url(../img/also/vk.png) center no-repeat;
+  height: 18px;
+  display: inline-block;
+  width: 30px;
+  border-radius: 10%; }
+
+@media (width: 576px) {
+  .vk-icon {
+    margin-left: 8px; } }
+
+.delivery-help {
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column; }
+
+.delivery-help_text {
+  margin-bottom: 12px;
+  width: 230px;
+  display: block; }
+
+.delivery-help_text, .delivery-help_text2 {
+  color: #ffffff;
+  font-family: "Gotham Pro Reg";
+  font-size: 14px;
+  letter-spacing: 0.14px; }
+
+.delivery-help_phone {
+  width: 232px;
+  margin-bottom: 11px;
+  color: #ffffff;
+  font-family: "Gotham Pro Med";
+  font-size: 24px;
+  letter-spacing: 0.24px;
+  text-decoration: none; }
+
+@media (min-width: 992px) {
+  .delivery-help_phone:hover {
+    color: #f24841;
+    cursor: pointer; }
+  .vk-icon:hover {
+    background-color: #5472a5;
+    cursor: pointer; }
+  .delivery-payment_text:hover {
+    color: #f24841;
+    cursor: pointer; }
+  .delivery-text:hover {
+    color: #f24841;
+    cursor: pointer; } }
+
+@media (max-width: 575px) {
+  .delivery {
+    height: 230px;
+    padding-top: 32px; }
+  .delivery-flex {
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column; }
+  .delivery-text, .delivery-payment_text {
+    display: inline-block;
+    color: #ffffff;
+    font-family: "Gotham Pro Med";
+    font-size: 16px;
+    letter-spacing: 0.18px;
+    border-bottom: 1px solid white;
+    text-transform: uppercase;
+    margin-bottom: 18px; }
+  .join {
+    color: #ffffff;
+    font-family: "Gotham Pro Lig";
+    font-size: 14px;
+    letter-spacing: 0.16px;
+    width: 95vw;
+    text-align: center;
+    margin-bottom: 10px; }
+  .delivery-help_phone {
+    font-size: 22px;
+    width: auto; }
+  .delivery-help {
+    margin-top: 20px;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+  .delivery-left {
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap; } }
+
+.cellar {
+  background-color: #fff;
+  width: 100vw;
+  padding-top: 48px;
+  padding-bottom: 44px; }
+
+.cellar-img {
+  background: url(../img/cellar-logo.png) center no-repeat;
+  width: 156px;
+  height: 40px;
+  display: inline-block; }
+
+.cellar-text {
+  margin-left: 42px;
+  display: inline-block;
+  width: 122px;
+  color: #292929;
+  font-family: "Gotham Pro Lig";
+  font-size: 12px;
+  font-weight: 300;
+  letter-spacing: 0.12px; }
+
+.site-maker {
+  top: 32%;
+  color: #101010;
+  font-family: "Gotham Pro Reg";
+  font-size: 12px;
+  letter-spacing: 0.12px;
+  height: 11px;
+  text-align: right; }
+  .site-maker_name {
+    color: black;
+    border-bottom: 1px solid black; }
+
+@media (min-width: 768px) {
+  .cellar-align {
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end; } }
+
+@media (max-width: 767px) {
+  .cellar {
+    padding-top: 38px;
+    padding-bottom: 34px; }
+  .cellar-flex {
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center; }
+  .site-maker {
+    margin-top: 30px;
+    text-align: center; } }
+
+@media (max-width: 575px) {
+  .cellar-text {
+    display: none; } }
+
+.overlay-rose, .overlay-rhododendron, .overlay-chrysanths, .overlay-siren, .overlay-chrysanthemums, .overlay-lily {
+  display: none;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 300;
+  background-color: rgba(0, 0, 0, 0.6); }
+
+.vertical {
+  height: 100vh;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+
+.popup {
+  position: fixed;
+  left: 50%;
+  width: 516px;
+  min-height: 306px;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  background-color: #fff; }
+  .popup-close {
+    position: absolute;
+    font-size: 35px;
+    color: white;
+    top: 0;
+    right: 0;
+    margin-right: -50px;
+    font-weight: 300;
+    cursor: pointer;
+    background: url(../img/also/cross.png) center no-repeat;
+    height: 40px;
+    width: 40px; }
+  .popup-text {
+    margin-top: 47px;
+    margin-left: 58px; }
+    .popup-text_title {
+      color: #f64f6b;
+      font-family: "Gotham Pro Med";
+      font-size: 24px;
+      text-transform: uppercase;
+      letter-spacing: 0.24px;
+      margin-bottom: 29px; }
+    .popup-text_text {
+      width: 404px;
+      color: #0a0a0a;
+      font-family: "Gotham Pro Reg";
+      font-size: 16px;
+      letter-spacing: 0.16px; }
+
+.rose {
+  position: absolute;
+  background: url(../img/form/rose/overlay-rose.png) center no-repeat;
+  width: 86px;
+  height: 142px;
+  margin-top: 104px;
+  margin-left: -128px; }
+
+.form-rose1 {
+  position: absolute;
+  background: url(../img/form/rose/form-rose1.png);
+  width: 57px;
+  height: 58px;
+  bottom: 0;
+  left: 0; }
+
+.form-rose2 {
+  position: absolute;
+  background: url(../img/form/rose/form-rose2.png);
+  width: 107px;
+  height: 93px;
+  top: 0;
+  right: 0; }
+
+.form-rhododendron {
+  position: absolute;
+  background: url(../img/form/rhododendron/rhododendron.jpg) center no-repeat;
+  background-size: 95px 95px;
+  width: 70px;
+  height: 70px;
+  right: 5px;
+  top: 5px; }
+
+.form-chrysanths {
+  position: absolute;
+  background: url(../img/form/chrysanths/chrysanths.png) no-repeat center;
+  top: 5px;
+  right: 5px;
+  background-size: 90px 90px;
+  width: 90px;
+  height: 90px; }
+
+.form-siren1 {
+  position: absolute;
+  background: url(../img/form/siren/siren2.png) no-repeat center;
+  top: 1px;
+  right: 10px;
+  -webkit-transform: rotate(20deg);
+  transform: rotate(20deg);
+  background-size: 160px 100px;
+  width: 130px;
+  height: 75px; }
+
+.form-chrysanthemums1 {
+  position: absolute;
+  background: url(../img/form/chrysanthemums/chrysanthemums1.png) no-repeat center;
+  top: 160px;
+  left: -100px;
+  background-size: 100px 105px;
+  width: 100px;
+  height: 105px;
+  -webkit-transform: scale(1, 1);
+  transform: scale(1, 1); }
+
+.form-chrysanthemums2 {
+  position: absolute;
+  background: url(../img/form/chrysanthemums/chrysanthemums2.png) no-repeat center;
+  top: 2px;
+  right: 3px;
+  background-size: 90px 95px;
+  width: 90px;
+  height: 95px; }
+
+.form-lily1 {
+  position: absolute;
+  background: url(../img/form/lily/lily1.png) no-repeat center;
+  top: 150px;
+  left: -130px;
+  background-size: 140px 140px;
+  width: 130px;
+  height: 130px; }
+
+.form-lily2 {
+  position: absolute;
+  background: url(../img/form/lily/lily2.png) no-repeat center;
+  top: 0px;
+  right: 0px;
+  background-size: 90px 90px;
+  width: 95px;
+  height: 95px; }
+
+@media (max-width: 991px) {
+  .rose, .form-chrysanthemums1, .form-lily1 {
+    display: none; } }
+
+@media (max-width: 767px) {
+  .form-rose2, .form-rhododendron, .form-chrysanths, .form-siren1, .form-chrysanthemums2, .form-lily2 {
+    display: none; } }
+
+@media (min-width: 577px) and (max-width: 767px) {
+  .popup-close {
+    top: 5px;
+    right: 55px;
+    z-index: 1000;
+    background: url(../img/also/mob-cross.png) center no-repeat;
+    background-size: 35px 35px;
+    width: 35px;
+    height: 35px; }
+  .popup-text {
+    margin-top: 40px; }
+    .popup-text_title {
+      width: 404px;
+      text-align: center; }
+    .popup-text_text {
+      text-align: center; } }
+
+@media (max-width: 576px) {
+  .form-rose1 {
+    display: none; }
+  .popup {
+    width: 90vw;
+    height: auto;
+    min-height: 0; }
+    .popup-close {
+      top: 5px;
+      right: 55px;
+      z-index: 1000;
+      background: url(../img/also/mob-cross.png) center no-repeat;
+      background-size: 35px 35px;
+      width: 35px;
+      height: 35px; }
+    .popup-text {
+      margin-left: 0;
+      margin-top: 40px; }
+      .popup-text_title {
+        width: 100%;
+        padding-left: 20px;
+        padding-right: 20px;
+        text-align: center;
+        font-size: 20px; }
+      .popup-text_text {
+        width: 100%;
+        padding-left: 20px;
+        padding-right: 20px;
+        text-align: center;
+        font-size: 14px;
+        margin-bottom: 40px; } }
+
+@media (min-width: 992px) {
+  .main-slider_item:hover {
+    cursor: pointer; }
+  .main-btn:hover, .form-btn:hover {
+    cursor: pointer;
+    opacity: 0.7; }
+  .form-close:hover {
+    cursor: pointer;
+    background: url(../img/also/cross-hover.png) center no-repeat;
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    right: -45px;
+    top: 5px; }
+  .popup-close:hover {
+    cursor: pointer;
+    background: url(../img/also/cross-hover.png) center no-repeat;
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    right: 0px;
+    top: 0px; }
+  .text_phones:hover {
+    color: #ff1844; } }
+
+.vertical {
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+
+.overlay-comment1, .overlay-comment2, .overlay-comment3 {
+  position: fixed;
+  display: none;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 300;
+  background-color: rgba(0, 0, 0, 0.4); }
+
+.popup-comment:before {
+  content: "";
+  width: 80%;
+  height: 80%;
+  position: absolute;
+  border-top: 3px solid deeppink;
+  border-left: 3px solid deeppink;
+  left: -0.5%;
+  top: -0.7%; }
+
+.popup-comment:after {
+  content: "";
+  width: 80%;
+  height: 80%;
+  position: absolute;
+  border-bottom: 3px solid deepskyblue;
+  border-right: 3px solid deepskyblue;
+  left: 20.7%;
+  top: 21%; }
+
+.floweer1 {
+  background: url(../img/reviews/comment1.png) center no-repeat;
+  background-size: 290px 250px;
+  width: 350px;
+  height: 310px;
+  margin-left: auto;
+  margin-right: auto; }
+
+.floweer2 {
+  background: url(../img/reviews/comment2.png) center no-repeat;
+  background-size: 290px 250px;
+  width: 350px;
+  height: 310px;
+  margin-left: auto;
+  margin-right: auto; }
+
+.floweer3 {
+  background: url(../img/reviews/comment3.png) center no-repeat;
+  background-size: 290px 250px;
+  width: 350px;
+  height: 310px;
+  margin-left: auto;
+  margin-right: auto; }
+
+.popup-comment {
+  opacity: 0.9; }
+
+.overlay {
+  position: fixed;
+  display: none;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 300;
+  background-color: rgba(0, 0, 0, 0.4); }
+
+.form {
+  position: fixed;
+  left: 50%;
+  width: 752px;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%); }
+  .form-close {
+    background: url(../img/also/cross.png) center no-repeat;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    right: -45px;
+    top: 5px; }
+  .form-title {
+    display: block;
+    width: 100%;
+    height: 69px;
+    background-color: #ff1844;
+    margin: 0;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 21px;
+    font-weight: 500;
+    text-align: center;
+    line-height: 71px;
+    z-index: 100000;
+    font-family: "Gotham Pro Reg"; }
+  .form-in {
+    background: url(../img/also/form-bg.jpg) center no-repeat;
+    background-size: 752px 500px;
+    padding: 35px 88px 50px 88px;
+    color: #ffffff; }
+    .form-in_title {
+      text-align: center;
+      font-size: 30px;
+      font-weight: 400;
+      line-height: 27px;
+      font-family: "Gotham Pro Reg";
+      padding-top: 25px; }
+      .form-in_title-small {
+        display: block;
+        width: 400px;
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 27px;
+        font-family: "Gotham Pro Lig";
+        text-align: center; }
+  .form-data {
+    padding: 15px 88px 35px 88px;
+    color: #ffffff;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap; }
+    .form-data_input {
+      width: 362px;
+      height: 56px;
+      border-radius: 5px;
+      margin-bottom: 8px;
+      margin-left: auto;
+      margin-right: auto;
+      font-size: 13.8px;
+      font-weight: 300;
+      line-height: 42px;
+      padding-left: 14px;
+      outline: none;
+      border: none; }
+
+.popup-form_label {
+  display: block;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 30px;
+  padding-top: 0px;
+  padding-left: 11px;
+  padding-bottom: 12px;
+  font-family: "Gotham Pro Reg"; }
+
+.main-formm {
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 2%;
+  -webkit-box-shadow: 0px 20px 100px -1px #000000;
+  box-shadow: 0px 20px 100px -1px #000000; }
+
+.form-btn {
+  border-radius: 5px;
+  color: #fff;
+  width: 180px;
+  height: 56px;
+  font-weight: 500;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #ff1844;
+  font-family: "Gotham Pro Reg"; }
+
+@media (max-width: 860px) {
+  .form-close {
+    right: 5px; } }
+
+@media (max-width: 767px) and (min-width: 577px) {
+  .form {
+    width: 95vw; }
+    .form-in {
+      padding: 10px 10px 10px 10px; }
+    .form-close {
+      right: 5px; }
+  .main-formm {
+    width: 92vw; } }
+
+@media (max-width: 576px) {
+  .form {
+    width: 95vw; }
+    .form-close {
+      background-size: 25px 25px;
+      width: 25px;
+      height: 25px; }
+    .form-in {
+      padding: 10px 10px 10px 10px; }
+      .form-in_title {
+        padding-top: 25px;
+        padding-left: 5px;
+        padding-right: 5px;
+        font-size: 23px; }
+        .form-in_title-small {
+          display: none; }
+    .form-close {
+      right: 5px; }
+    .form-btn {
+      min-width: 150px; }
+    .form-data_input {
+      min-width: 230px; }
+  .popup-form_label {
+    font-size: 14px;
+    min-width: 230px;
+    padding-left: 0; }
+  .main-formm {
+    width: 92vw; }
+  .popup-comment {
+    max-width: 360px;
+    max-height: 260px; }
+  .floweer1 {
+    background: url(../img/reviews/comment1.png) center no-repeat;
+    background-size: 230px 190px;
+    width: 260px;
+    height: 210px;
+    margin-left: auto;
+    margin-right: auto; }
+  .floweer2 {
+    background: url(../img/reviews/comment2.png) center no-repeat;
+    background-size: 230px 190px;
+    width: 280px;
+    height: 260px;
+    margin-left: auto;
+    margin-right: auto; }
+  .floweer3 {
+    background: url(../img/reviews/comment3.png) center no-repeat;
+    background-size: 230px 190px;
+    width: 270px;
+    height: 240px;
+    margin-left: auto;
+    margin-right: auto; } }
+
+.a-fixed {
+  line-height: 56px;
+  -webkit-transition: all 2500ms ease;
+  transition: all 2500ms ease;
+  color: black;
+  text-decoration: none;
+  vertical-align: middle; }
+
+@media (min-width: 992px) {
+  .a-fixed:hover {
+    color: #fff !important;
+    -webkit-transition: all 2000ms ease !important;
+    transition: all 2000ms ease !important;
+    text-shadow: 0px 1px 100px -11px red !important; } }
+
+.fixed {
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 320px;
+  height: 92px;
+  font-size: 36px;
+  text-align: center;
+  bottom: 0;
+  position: fixed;
+  font-family: 'Roboto', sans-serif;
+  border: 3px solid #bababa;
+  z-index: 10000;
+  background: #c0c0c0; }
+
+.unfixed {
+  position: relative;
+  top: 0;
+  width: 100vw;
+  display: block;
+  height: 65px; }
+
+@media (max-width: 782px) {
+  .fixed {
+    width: 100vw;
+    height: 65px; } }
+
+@media (max-width: 400px) {
+  .fixed {
+    font-size: 10vw; } }
+
+.slick-dots li button:before {
+  font-family: 'slick';
+  font-size: 12px;
+  line-height: 20px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  content: '✿';
+  text-align: center;
+  opacity: 0.5;
+  color: #ff1844;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+.slick-dots li.slick-active button:before {
+  opacity: 1;
+  color: white; }
+
+@media (max-width: 1349px) {
+  .flower- {
+    display: none; } }
+
+@media (max-width: 1349px) {
+  .flower-2 {
+    display: none; } }
+
+@media (min-width: 1350px) {
+  .flower-2 {
+    background: url(../img/flowers/2.png) center no-repeat;
+    position: absolute;
+    width: 93px;
+    height: 153px;
+    margin-top: -78px;
+    left: 0;
+    margin-left: 10px; } }
+
+@media (max-width: 1349px) {
+  .flower-3 {
+    display: none; } }
+
+@media (min-width: 1350px) {
+  .flower-3 {
+    background: url(../img/flowers/3.png) center no-repeat;
+    position: absolute;
+    width: 71px;
+    height: 61px;
+    right: 0;
+    margin-top: 175px; } }
+
+@-ms-viewport {
+  user-zoom: fixed; }
+
+@-o-viewport {
+  user-zoom: fixed; }
+
+@viewport {
+  user-zoom: fixed; }
+
+body {
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  background-color: #292929;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap; }
+
+button {
+  outline: none;
+  border: none; }
+
+input {
+  outline: none;
+  border: none; }
+
+.container {
+  padding-left: 0 !important;
+  padding-right: 0 !important; }
+
+.slick-slide {
+  outline: none; }
+
+.line {
+  border-bottom: 1px solid #4c4c4c;
+  height: 1px;
+  width: 100%;
+  margin-bottom: 100px; }
+
+@media (max-width: 576px) {
+  .line {
+    border-bottom: 1px solid #4c4c4c;
+    height: 1px;
+    width: 100%;
+    margin-bottom: 70px; } }
